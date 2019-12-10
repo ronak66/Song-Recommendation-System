@@ -113,5 +113,5 @@ class SongReccomender:
 
 
 if __name__ == '__main__':
-    sr = SongReccomender('Data/final.csv')
+    sr = SongReccomender('../Data/final.csv')
     sr.print_song_reccomendation(song_number=2980)
